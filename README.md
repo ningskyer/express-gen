@@ -11,17 +11,17 @@
 ## Installation
 
 ```sh
-$ npm install -g express-generator
+$ npm install -g express-gen
 ```
 
 ## Quick Start
 
-The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:
+The quickest way to get started with express is to utilize the executable `expressgen(1)` to generate an application as shown below:
 
 Create the app:
 
 ```bash
-$ express --view=hbs /tmp/foo && cd /tmp/foo
+$ expressgen --view=hbs /tmp/foo && cd /tmp/foo
 ```
 
 Install dependencies:
